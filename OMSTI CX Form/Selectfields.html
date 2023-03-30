@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .radio-toolbar input[type="radio"] {
+            opacity: 0;
+            position: fixed;
+            width: 0;
+            }
+            .radio-toolbar label {
+                display: inline-block;
+                /*background-color: #ddd;*/
+                padding: 10px 20px;
+                font-family: sans-serif, Arial;
+                font-size: 16px;
+                border: 1px solid #444;
+                /*border-radius: 50%;*/
+                font-size: 10px;
+                height: 50%;
+                background-color: white;
+                border-radius: 50px;
+                border-color: rgb(52, 51, 51);
+            }
+            .radio-toolbar input[type="radio"]:checked + label {
+                background-color:rgb(255, 193, 187);
+                border-color: rgb(204, 75, 68);
+            }
+            .radio-toolbar input[type="radio"]:focus + label {
+                border: 1px dashed #040000;
+            }
+            .radio-toolbar label:hover {
+            background-color: rgb(255, 221, 221);
+            }
+        </style>
+</head>
+
+<body>
+
+    <p>&nbsp;</p>
+
+
+    <h2>Student Contact Form</h2>
+    <form action="mailto:smphinyane@oldmutual.co.bw" method="post" enctype="text/plain">
+       Student Name:<br><input type="text" name="sname"> <br>
+       Student Subject:<br><input type="text" name="ssubject"><br>
+       <div class="radio-toolbar">
+        <input type="radio" id="one" name="radioFruit" value="1">
+        <label for="one">1</label>
+    
+        <input type="radio" id="two" name="radioFruit" value="2">
+        <label for="two">2</label>
+    
+        <input type="radio" id="three" name="radioFruit" value="3">
+        <label for="three">3</label> 
+
+        <input type="radio" id="four" name="radioFruit" value="4">
+        <label for="four">4</label>
+    
+        <input type="radio" id="five" name="radioFruit" value="5">
+        <label for="five">5</label>
+    
+        <input type="radio" id="six" name="radioFruit" value="6">
+        <label for="six">6</label>
+
+        <input type="radio" id="seven" name="radioFruit" value="7">
+        <label for="seven">7</label>
+    
+        <input type="radio" id="eight" name="radioFruit" value="8">
+        <label for="eight">8</label>
+    
+        <input type="radio" id="nine" name="radioFruit" value="9">
+        <label for="nine">9</label>
+
+        <input type="radio" id="ten" name="radioFruit" value="10">
+        <label for="ten">10</label>
+
+    </div>
+       <input type="submit" value="Send">
+    </form>
+</body>
+</html>

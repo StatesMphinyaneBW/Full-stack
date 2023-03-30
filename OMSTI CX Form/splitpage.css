@@ -1,0 +1,43 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+ }
+
+ html{
+    box-sizing: border-box;
+ }
+ .row{
+    background-color: black;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.col-6{
+    background-color: brown;
+    width: 50%;
+}
+.col-7{
+    background-color: rgb(104, 15, 95);
+    width: 50%;
+}
+
+.nav{
+    width:100%;
+    background-color: black;
+    overflow: auto;
+}
+
+
+.topnav{
+    background: black;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height:60px;
+    padding-top: 0px;
+}
+.navbar{
+  margin-top: 0px;
+}
